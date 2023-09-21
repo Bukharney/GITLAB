@@ -14,11 +14,11 @@ void main()
       scanf("%s", G);
 
       if (strcmp(G, "a") != 0 &&
-          strcmp(G, "b") != 0 &&
+          strcmp(G, "B") != 0 &&
           strcmp(G, "AB") != 0 &&
           strcmp(G, "O") != 0)
         printf("Blood group %s is incorrect! Please try again.\n", G);
-    } while (strcmp(G, "A") != 0 &&
+    } while (strcmp(G, "a") != 0 &&
              strcmp(G, "B") != 0 &&
              strcmp(G, "AB") != 0 &&
              strcmp(G, "O") != 0);
